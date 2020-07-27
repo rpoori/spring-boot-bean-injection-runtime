@@ -1,4 +1,4 @@
-package com.my.poc.springbootdddmultiprofile;
+package com.my.poc.springbootbeaninjectionruntime;
 
 import com.my.poc.user.GetActiveUsers;
 import com.my.poc.user.User;

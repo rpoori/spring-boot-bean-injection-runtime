@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBootDDDBeanInjectionRuntimeApplication {
+public class SpringBootBeanInjectionRuntimeApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBootDDDBeanInjectionRuntimeApplication.class, args);
+		SpringApplication.run(SpringBootBeanInjectionRuntimeApplication.class, args);
 	}
 
 }

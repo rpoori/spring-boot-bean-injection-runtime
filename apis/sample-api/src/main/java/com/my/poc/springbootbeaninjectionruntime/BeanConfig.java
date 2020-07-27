@@ -1,4 +1,4 @@
-package com.my.poc.springbootdddmultiprofile;
+package com.my.poc.springbootbeaninjectionruntime;
 
 import com.my.poc.externaluserservice.ExternalUserService;
 import com.my.poc.externaluserservice.ExternalUserServiceConfig;

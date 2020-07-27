@@ -1,4 +1,4 @@
-package com.my.poc.springbootdddmultiprofile.demo;
+package com.my.poc.springbootbeaninjectionruntime.demo;
 
 import com.my.poc.user.User;
 import com.my.poc.user.UserStore;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-import static com.my.poc.springbootdddmultiprofile.demo.DemoBeanConfig.demoProfile;
+import static com.my.poc.springbootbeaninjectionruntime.demo.DemoBeanConfig.demoProfile;
 import static java.util.Arrays.asList;
 
 @Component
