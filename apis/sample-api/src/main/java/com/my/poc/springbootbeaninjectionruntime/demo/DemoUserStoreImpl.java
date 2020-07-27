@@ -2,16 +2,13 @@ package com.my.poc.springbootbeaninjectionruntime.demo;
 
 import com.my.poc.user.User;
 import com.my.poc.user.UserStore;
-import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-import static com.my.poc.springbootbeaninjectionruntime.demo.DemoBeanConfig.demoProfile;
 import static java.util.Arrays.asList;
 
 @Component
-@Profile(demoProfile)
 public class DemoUserStoreImpl implements UserStore {
 
     @Override
@@ -38,5 +35,10 @@ public class DemoUserStoreImpl implements UserStore {
                 .build();
 
         return asList(user1, user2, user3);
+    }
+
+    @Override
+    public boolean supports(String profile) {
+        return "demo".equals(profile);
     }
 }

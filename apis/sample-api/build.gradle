@@ -10,6 +10,7 @@ version '0.0.1-SNAPSHOT'
 dependencies {
     implementation project(':domains:user')
     implementation project(':implementations:external-user-service')
+    implementation 'org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }

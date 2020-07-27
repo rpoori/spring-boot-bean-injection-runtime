@@ -7,6 +7,7 @@ sourceCompatibility = 1.8
 
 dependencies {
     implementation project(':domains:user')
+    implementation 'org.springframework.plugin:spring-plugin-core:2.0.0.RELEASE'
     implementation "org.springframework.boot:spring-boot-starter-web:${springBootVersion}"
     testImplementation "org.springframework.boot:spring-boot-starter-test:${springBootVersion}"
 }

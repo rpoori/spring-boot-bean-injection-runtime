@@ -50,4 +50,9 @@ public class ExternalUserService implements UserStore {
                         .build())
                 .collect(Collectors.toList());
     }
+
+    @Override
+    public boolean supports(String profile) {
+        return "default".equals(profile);
+    }
 }
